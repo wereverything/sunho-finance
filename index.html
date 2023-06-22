@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth duration-300">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./input.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>SUNHO FINANCE</title>
+  </head>
+  <body class="bg-slate-100 overflow-x-hidden">
+    <header
+      class="font-poppins w-screen h-auto py-4 px-6 flex flex-col md:flex-row justify-between items-center bg-white border-b-[1px]"
+      id="home"
+    >
+      <div id="Logo" class="font-bold text-slate-700 text-xl md:text-base">
+        Sunho Finance
+      </div>
+      <ul
+        id="Ul"
+        class="flex py-2 md:py-0 gap-10 text-slate-400 md:text-sm sm:flex hidden"
+      >
+        <li class="Ul-li">
+          <a
+            class="hover:text-blue-500 hover:border-blue-500 border-b-2 border-transparent duration-100"
+            href="#home"
+            >Home</a
+          >
+        </li>
+        <li class="Ul-li">
+          <a
+            class="hover:text-blue-500 hover:border-blue-500 border-transparent border-b-2 duration-100"
+            href="#Features"
+            >Features</a
+          >
+        </li>
+        <li class="Ul-li">
+          <a
+            class="hover:text-blue-500 hover:border-blue-500 border-b-2 border-transparent duration-100"
+            href="#About"
+            >About Us</a
+          >
+        </li>
+        <li class="Ul-li">
+          <a
+            class="hover:text-blue-500 hover:border-blue-500 border-b-2 border-transparent duration-100"
+            href="#Customers"
+            >Customers</a
+          >
+        </li>
+        <li class="Ul-li">
+          <a
+            class="hover:text-blue-500 hover:border-blue-500 border-b-2 border-transparent duration-100"
+            href="#Resource"
+            >Try Sunho</a
+          >
+        </li>
+      </ul>
+    </header>
+    <section
+      id="solutions"
+      class="my-16 mx-32 flex md:flex-row flex-col gap-10 justify-center items-center text-center md:gap-20 md:text-start"
+    >
+      <div id="left-part" class="flex flex-col gap-7">
+        <h1
+          id="title"
+          class="text-blue-950 text-5xl font-normal md:text-6xl md:font-semibold"
+          data-aos="fade-up"
+          data-aos-duration="1200"
+        >
+          Trusted Simple Payment Solution
+        </h1>
+        <p
+          id="subtitle"
+          class="text-gray-400 font-medium text-sm font-montserrat md:text-xl md:font-normal"
+          data-aos="fade-up"
+          data-aos-duration="1200"
+        >
+          Payments, manage business finaces, do it easily, informative and
+          assisted by powerfull power of AI.
+        </p>
+        <div
+          id="buttons"
+          class="flex flex-row gap-3 md:justify-start justify-center items-center"
+          data-aos="fade-up"
+          data-aos-duration="1900"
+        >
+          <button
+            class="py-3 px-5 bg-blue-500/80 text-slate-100 font-poppins text-xs rounded-3xl"
+          >
+            Get Started
+          </button>
+          <button
+            class="py-3 px-5 bg-white font-poppins text-gray-950 font-semibold text-xs rounded-3xl"
+          >
+            Watch Demo
+          </button>
+        </div>
+        <div id="trusted" class="flex flex-col items-center md:block">
+          <p
+            class="text-gray-400 font-medium text-sm font-montserrat text-xs md:font-normal mt-5"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+          >
+            Trusted by over 4,000 partners & customers
+          </p>
+          <div id="image-partcusmer">
+            <img
+              src="./src/images/partners-customers.png"
+              alt="partners images"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+              class="text-gray-400 font-medium text-sm font-montserrat text-xs md:font-normal mt-3"
+            />
+          </div>
+        </div>
+      </div>
+      <div id="right-part" class="relative">
+        <div
+          id="target"
+          class="bg-[url('https://images.pexels.com/photos/4476637/pexels-photo-4476637.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] bg-right bg-cover bg-no-repeat w-80 h-96 rounded-3xl p-3 shadow-xl shadow-slate-300"
+          data-aos="fade-up"
+          data-aos-duration="1200"
+        >
+          <div
+            id="navbar"
+            class="w-full h-6 bg-white/50 backdrop-blur-sm rounded-3xl flex flex-row items-center gap-1 pl-4"
+          >
+            <div id="navbar" class="flex gap-1">
+              <div
+                id="red"
+                class="w-2 h-2 bg-red-600 rounded-full cursor-pointer duration-150 hover:scale-110"
+              ></div>
+              <div
+                id="yellow"
+                class="w-2 h-2 bg-yellow-500 rounded-full cursor-pointer duration-150 hover:scale-110"
+              ></div>
+              <div
+                id="green"
+                class="w-2 h-2 bg-green-600 rounded-full cursor-pointer duration-150 hover:scale-110"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="Features"
+      class="mt-32 mx-16 mb-20 flex flex-col justify-center items-center bg-white py-10 p-6 md:p-20"
+    >
+      <div
+        id="titles"
+        class="flex text-center flex-col md:flex-row justify-between items-center"
+      >
+        <h2 class="text-4xl font-normal md:w-[40%] text-blue-500">
+          Impressive mainstay features for you
+        </h2>
+        <p class="mt-4 md:mt-0 text-sm md:w-[50%] text-slate-400 font-light">
+          Don't hesitate Sunho Finance, all the solutions you need for your
+          business are integrated seamlessly, try it now
+        </p>
+      </div>
+      <div id="targets" class="mt-20 grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div
+          id="one"
+          class="rounded-2xl border-2 py-6 px-3"
+          data-aos="fade-up"
+          data-aos-duration="1300"
+        >
+          <div
+            id="favicon"
+            class="text-indigo-600 w-10 p-2 px-3 bg-slate-200 rounded-xl"
+          >
+            <i class="fa-solid fa-landmark"></i>
+          </div>
+          <h3 class="mt-4 font-semibold text-blue-950">
+            Supervised by the central bank
+          </h3>
+          <p class="text-slate-600 text-xs mt-4">
+            All transactions are supervised and officialy redorded by the
+            central bank.
+          </p>
+          <button class="text-xs mt-7 text-indigo-900">
+            Learn More <i class="fa-solid fa-angle-right"></i>
+          </button>
+        </div>
+        <div
+          id="two"
+          class="rounded-2xl border-2 py-6 px-3"
+          data-aos="fade-up"
+          data-aos-duration="1900"
+        >
+          <div
+            id="favicon"
+            class="text-indigo-600 w-10 p-2 px-3 bg-slate-200 rounded-xl"
+          >
+            <i class="fa-solid fa-landmark"></i>
+          </div>
+          <h3 class="mt-4 font-semibold text-blue-950">
+            Manage business finance flows
+          </h3>
+          <p class="text-slate-600 text-xs mt-4">
+            With neater recording, and everything is displayed on the dashboard
+            with a moderd look.
+          </p>
+          <button class="text-xs mt-7 text-indigo-900">
+            Learn More <i class="fa-solid fa-angle-right"></i>
+          </button>
+        </div>
+        <div
+          id="three"
+          class="rounded-2xl border-2 py-6 px-3"
+          data-aos="fade-up"
+          data-aos-duration="2200"
+        >
+          <div
+            id="favicon"
+            class="text-indigo-600 w-10 p-2 px-3 bg-slate-200 rounded-xl"
+          >
+            <i class="fa-solid fa-landmark"></i>
+          </div>
+          <h3 class="mt-4 font-semibold text-blue-950">
+            Optimal data protection
+          </h3>
+          <p class="text-slate-600 text-xs mt-4">
+            make sure all your valuable data is protected with an adequate layer
+            of security
+          </p>
+          <button class="text-xs mt-7 text-[#002a30]">
+            Learn More <i class="fa-solid fa-angle-right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="About"
+      class="bg-[#002a30] w-full h-auto py-20 px-16 text-white"
+    >
+      <div
+        id="titles"
+        class="text-white text-center flex flex-col justify-center items-center"
+      >
+        <h3 class="text-4xl mb-5" data-aos="fade-up" data-aos-duration="1300">
+          Financial analysis with an intuitive dashboard
+        </h3>
+        <p
+          class="text-slate-300 w-[70%] text-sm"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+        >
+          Easily collect instant payments in one time or automatic recurring
+          payments. No rush, no stress, nor high costs.
+        </p>
+      </div>
+      <div id="dashboards" class="grid grid-cols-1 md:grid-cols-2 gap-10 mt-16">
+        <div id="one" class="w-auto h-auto bg-[#10383c] p-6 rounded-xl">
+          <h4 class="text-2xl mb-4">Track your income and expenses easily</h4>
+          <p class="text-xs text-slate-400 font-light font-montserrat">
+            All incoming income can be managed and analyzed quickly with the
+            help of Sunho AI.
+          </p>
+          <div id="images-grafics" class="mt-8 bg-[#0b333a] p-4 rounded-xl">
+            <img
+              src="./src/dashboards/dasboard-one.png"
+              alt="none"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+            />
+          </div>
+        </div>
+        <div id="two" class="w-auto h-auto bg-[#10383c] p-6 rounded-xl">
+          <h4 class="text-2xl mb-4">See the growth of your business sales</h4>
+          <p class="text-xs text-slate-400 font-light font-montserrat">
+            The passage experienced a surge in popularity during the 1960s when
+            Letraset used it on their dry-transfer sheets.
+          </p>
+          <div id="images-grafics" class="mt-4 bg-[#0b333a] p-4 rounded-xl">
+            <img
+              src="./src/dashboards/dasboard-two.png"
+              alt="none"
+              data-aos="fade-left"
+              data-aos-duration="2000"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        id="timers"
+        class="grid grid-cols-3 md:grid-cols-4 mt-20 py-6 border-t-[1px] border-slate-500 gap-3"
+      >
+        <div id="about" class="text-slate-300 text-[1em] hidden md:flex">
+          About the Sunho Finance
+        </div>
+        <div id="one" class="text-center">
+          <div id="return" data-count-total="300%" class="text-2xl">300%</div>
+          <span class="text-xs text-slate-500">Return on investment</span>
+        </div>
+        <div id="two" class="text-center">
+          <div id="global" data-count-total="120M+" class="text-2xl">120M+</div>
+          <span class="text-xs text-slate-500">Global downloads</span>
+        </div>
+        <div id="three" class="text-center">
+          <div id="starts" data-count-total="20k+" class="text-2xl">20k+</div>
+          <span class="text-xs text-slate-500">5-start reviews</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="Customers" class="mt-28 px-10 flex flex-col gap-10">
+      <div
+        id="titles"
+        class="flex flex-col text-center gap-4 md:flex-row md:text-start justify-center items-center"
+      >
+        <h3
+          id="title"
+          class="text-3xl font-semibold text-blue-950 md:w-[100%] md:text-3xl"
+        >
+          Customers believe in Sunho's strength
+        </h3>
+        <p id="subtitle" class="text-slate-600 text-sm md:text-xs md:w-[60%]">
+          Various kinds of businesses have benefited from Sunho Finance, now
+          it's your part to quickly join the Sunho Fiancial ecosystem.
+        </p>
+      </div>
+      <div id="daylight" class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div
+          id="number"
+          class="p-4 flex flex-col gap-4 bg-[#f3f3f3] shadow-xl"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          <div id="image">
+            <img src="./src/images/luminous.png" alt="luminous" class="w-20" />
+          </div>
+          <div id="pharagraft" class="text-sm">
+            I love Sunho! This is an amazing service and it has saved me and my
+            small business so much time. I plan to use it for a long time to
+            come.
+          </div>
+          <div
+            id="grouper"
+            class="flex flex-row justify-between items-center mt-4"
+          >
+            <div id="one" class="grid grid-cols-1">
+              <span id="name" class="text-[0.7em] font-[500]">Jacob Jones</span>
+              <span id="worker" class="text-[0.5em]">Web Designer</span>
+            </div>
+            <div id="two">
+              <img
+                src="https://images.pexels.com/photos/428328/pexels-photo-428328.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="Jacob Jones"
+                class="w-6 h-6 rounded-full"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          id="number"
+          class="p-4 flex flex-col gap-4 bg-[#f3f3f3] shadow-xl"
+          data-aos="fade-up"
+          data-aos-duration="2400"
+        >
+          <div id="image">
+            <img src="./src/images/nietzshce.png" alt="luminous" class="w-20" />
+          </div>
+          <div id="pharagraft" class="text-sm">
+            Sunho is a game-changer. Instead of drowning in an endless chain of
+            emails, there is clear and easy accountability meaning tasks
+            actually get done!
+          </div>
+          <div
+            id="grouper"
+            class="flex flex-row justify-between items-center mt-4"
+          >
+            <div id="one" class="grid grid-cols-1">
+              <span id="name" class="text-[0.7em] font-[500]"
+                >Annette Black</span
+              >
+              <span id="worker" class="text-[0.5em]">Medical Assistant</span>
+            </div>
+            <div id="two">
+              <img
+                src="https://images.pexels.com/photos/5452291/pexels-photo-5452291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="Annette Black"
+                class="w-6 h-6 rounded-full"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          id="number"
+          class="p-4 flex flex-col gap-4 bg-[#f3f3f3] shadow-xl"
+          data-aos="fade-up"
+          data-aos-duration="2800"
+        >
+          <div id="image">
+            <img src="./src/images/luminous.png" alt="luminous" class="w-20" />
+          </div>
+          <div id="pharagraft" class="text-sm">
+            I have been using Sunho for over a year now and I love it! I can't
+            image life without it. It's so easy to use, and the customer service
+            is great.
+          </div>
+          <div
+            id="grouper"
+            class="flex flex-row justify-between items-center mt-4"
+          >
+            <div id="one" class="grid grid-cols-1">
+              <span id="name" class="text-[0.7em] font-[500]"
+                >Brooklyn Simmons</span
+              >
+              <span id="worker" class="text-[0.5em]">President of Sales</span>
+            </div>
+            <div id="two">
+              <img
+                src="https://images.pexels.com/photos/15565598/pexels-photo-15565598/free-photo-of-man-with-mustache-in-jacket.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="Brooklyn Simmons"
+                class="w-6 h-6 rounded-full"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Resource" class="mt-32 p-5 md:p-20">
+      <div
+        id="integrations"
+        class="bg-gradient-to-r from-[#002a30] to-indigo-900 w-full h-auto flex flex-col items-center gap-8 text-center py-10 text-white rounded-2xl"
+      >
+        <h4 id="title" class="w-[60%] text-xl md:text-3xl">
+          Try and integrate your business right now
+        </h4>
+        <div
+          id="buttons"
+          class="flex flex-row gap-3 md:justify-start justify-center items-center"
+          data-aos="fade-up"
+          data-aos-duration="1900"
+        >
+          <button
+            class="py-3 px-5 bg-blue-500/80 text-slate-100 font-poppins text-xs rounded-3xl"
+          >
+            Get Started
+          </button>
+          <button
+            class="py-3 px-5 bg-white font-poppins text-gray-950 font-semibold text-xs rounded-3xl"
+          >
+            Watch Demo
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <footer
+      id="footer"
+      class="mt-20 px-5 md:px-12 md:grid flex flex-col gap-20 mb-20 md:grid-cols-4 relative"
+    >
+      <div id="socials" class="flex flex-col gap-4">
+        <h5 class="font-semibold text-xl">Sunho Finance</h5>
+        <p class="text-slate-500 Montserrat text-xs">
+          Sunho financial is a trusted payment provider for businesses
+        </p>
+        <div id="reds" class="text-slate-500 flex flex-row gap-5">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-discord"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+      </div>
+      <div id="feacc">
+        <h5 class="font-semibold text-xl md:text-[1em]">Features</h5>
+        <ul id="uls" class="mt-5 flex flex-col gap-2 text-slate-500 md:text-sm">
+          <li id="list">Overview</li>
+          <li id="list">Secure Product</li>
+          <li id="list">Shopify Owner</li>
+          <li id="list">Secure Payments</li>
+        </ul>
+      </div>
+      <div id="sourr">
+        <h5 class="font-semibold text-xl md:text-[1em]">Resources</h5>
+        <ul id="uls" class="mt-5 flex flex-col gap-2 text-slate-500 md:text-sm">
+          <li id="list">Developers</li>
+          <li id="list">Showcase</li>
+          <li id="list">Online Store</li>
+        </ul>
+      </div>
+      <div id="contt">
+        <h5 class="font-semibold text-xl md:text-[1em]">Contacts</h5>
+        <ul id="uls" class="mt-5 flex flex-col gap-2 text-slate-500 md:text-sm">
+          <li id="list"><i class="fa-solid fa-phone"></i> +569-231-213</li>
+          <li id="list">
+            <i class="fa-solid fa-envelope"></i> contact@sunho.ai
+          </li>
+          <li id="list">
+            <i class="fa-solid fa-map"></i> 4517 Washington Ave. Manchester,
+            Kentucky 39495
+          </li>
+        </ul>
+      </div>
+      <div
+        id="copy"
+        class="w-full h-auto flex items-center justify-center absolute -bottom-12 text-slate-500 text-sm"
+      >inspired
+        <b class="text-indigo-600">
+          <a
+            href="https://dribbble.com/shots/21754935-Sunho-Finance-Landing-Page"
+            target="_blank"
+            >Pixlayer</a
+          ></b
+        >
+        and builder by
+        <b class="text-indigo-600"
+          ><a href="https://github.com/wereverything" target="_blank"
+            >wereverything</a
+          ></b
+        >
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script
+      src="https://kit.fontawesome.com/57d00d32a2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
